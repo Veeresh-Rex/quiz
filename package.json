@@ -1,0 +1,27 @@
+{
+    "name": "express-tutorial",
+    "version": "1.0.0",
+    "description": "I a learning express js",
+    "main": "server.js",
+    "homepage": "http://quizhub.epizy.com/",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "build": "cd quiz && npm run build",
+        "install": "cd quiz && npm build",
+        "heroku-postbuild": " cd quiz && npm install && npm run build"
+    },
+    "author": "veeresh maurya",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "bcrypt": "^5.0.0",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongodb": "^3.5.9",
+        "mongoose": "^5.9.25",
+        "nodemon": "^2.0.4"
+    }
+}
