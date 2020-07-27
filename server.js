@@ -7,8 +7,7 @@ var mongoose = require('mongoose');
 const user = require('./routes/users');
 const api = require('./models/Users');
 const mongoURI =
-  'mongodb+srv://leet-rex:Veer2000@password-auth.uagdt.mongodb.net/test-login';
-
+  'Own mongo DB URL';
 app.use(bodyParser.json());
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
