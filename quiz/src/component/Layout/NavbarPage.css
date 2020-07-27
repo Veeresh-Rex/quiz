@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #ffffff;
+    box-shadow: none;
+}
+
+.costom {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.toggel {
+    background-color: black;
+    color: aqua;
+}
+
+.row-co {
+    background-color: #011627;
+}

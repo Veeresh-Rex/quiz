@@ -1,0 +1,126 @@
+[{
+        "question": [
+            "#include<stdio.h>",
+            "\n",
+            "int main()",
+            "\n",
+            "{",
+            "\n",
+            " void *ptr;",
+            "\n",
+            " int  num = 10;",
+            "\n",
+            " ptr = &num;",
+            "\n",
+            " printf(\"%d\", ptr);",
+            "\n",
+            " return 0;",
+            "\n",
+            "}"
+        ],
+        "optionA": "10",
+        "optionB": "comliper error",
+        "optionC": "0",
+        "optionD": "Address",
+        "answer": "Address"
+    },
+
+    {
+        "question": "Who wrote Julius Caesar, Macbeth and Hamlet?",
+        "optionA": "Wole Soyinka",
+        "optionB": "William Shakespeare",
+        "optionC": "Ngozi Chimamanda Adichie",
+        "optionD": "Dan Brown",
+        "answer": "William Shakespeare"
+    },
+
+    {
+        "question": "What did the crocodile swallow in Peter Pan?",
+        "optionA": "A Book",
+        "optionB": "A Computer",
+        "optionC": "A pair of shoes",
+        "optionD": "Alarm Clock",
+        "answer": "Alarm Clock"
+    },
+
+    {
+        "question": "Which is the only mammal that can’t jump?",
+        "optionA": "Dog",
+        "optionB": "Elephant",
+        "optionC": "Goat",
+        "optionD": "Lion",
+        "answer": "Elephant"
+    },
+
+    {
+        "question": "Who lived at 221B, Baker Street, London?",
+        "optionA": "Tony Stark",
+        "optionB": "Morgan Freeman",
+        "optionC": "Sherlock Holmes",
+        "optionD": "Samuel L. Jackson",
+        "answer": "Sherlock Holmes"
+    },
+
+    {
+        "question": "What colour is a panda?",
+        "optionA": "Green and Yellow",
+        "optionB": "Blue and Red",
+        "optionC": "Green and White",
+        "optionD": "Black and White",
+        "answer": "Black and White"
+    },
+
+    {
+        "question": "Where is the smallest bone in the human body?",
+        "optionA": "The Chest",
+        "optionB": "The Ear",
+        "optionC": "The Legs",
+        "optionD": "The Hands",
+        "answer": "The Ear"
+    },
+
+    {
+        "question": "What’s the most important book in the Moslem religion?",
+        "optionA": "The Koran",
+        "optionB": "The Dictionary",
+        "optionC": "The Bible",
+        "optionD": "The Chemistry text Book",
+        "answer": "The Koran"
+    },
+
+    {
+        "question": "What’s the capital of Ethiopia?",
+        "optionA": "Cape Town",
+        "optionB": "San Francisco",
+        "optionC": "Abuja",
+        "optionD": "Syndey",
+        "answer": "Addis Ababa"
+    },
+
+    {
+        "question": "How many squares are there on a chess board?",
+        "optionA": "128",
+        "optionB": "64",
+        "optionC": "32",
+        "optionD": "256",
+        "answer": "64"
+    },
+
+    {
+        "question": "Who invented the electric light bulb?",
+        "optionA": "Tom Cruise",
+        "optionB": "Barack Obama",
+        "optionC": "Wole Soyinka",
+        "optionD": "Thomas Edison",
+        "answer": "Thomas Edison"
+    },
+
+    {
+        "question": "What are the first three words of the bible?",
+        "optionA": "be with everyone",
+        "optionB": "Again Jesus asked",
+        "optionC": "In the beginning",
+        "optionD": "At that time",
+        "answer": "In the beginning"
+    }
+]

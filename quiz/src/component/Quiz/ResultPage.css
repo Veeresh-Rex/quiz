@@ -1,0 +1,14 @@
+.btn {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+.score {
+    color: #2ecc71;
+}
+
+.remark {
+    font-size: xx-large;
+    color: #3498db;
+}
