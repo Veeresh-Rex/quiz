@@ -1,10 +1,10 @@
 import React from 'react';
 import {
   MDBJumbotron,
-  MDBBtn,
   MDBContainer,
   MDBRow,
   MDBCol,
+  MDBBtn,
   MDBCardBody,
   MDBCardText,
   MDBCardTitle,
@@ -17,11 +17,9 @@ const Home = () => {
         <MDBCol>
           <MDBJumbotron>
             <MDBCardBody>
-              <MDBCardTitle className='h2'>
-                Material Design for Bootstrap
-              </MDBCardTitle>
+              <MDBCardTitle className='h2'>Quiz Hub</MDBCardTitle>
               <p className='blue-text my-4 font-weight-bold'>
-                Powerful and free Material Design UI KIT
+                Test your programming skills
               </p>
               <MDBCardText>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
@@ -32,15 +30,8 @@ const Home = () => {
               </MDBCardText>
               <hr className='my-4' />
               <div className='pt-2'>
-                <MDBBtn href='/login' color='primary' className='waves-effect'>
-                  Login
-                </MDBBtn>
-                <MDBBtn
-                  href='/register'
-                  outline
-                  color='primary'
-                  className='waves-effect'>
-                  Register
+                <MDBBtn href='/c++/quiz' color='success' className='btn'>
+                  Start Quiz
                 </MDBBtn>
               </div>
             </MDBCardBody>
