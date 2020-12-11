@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 mongoose
   .connect(
     process.env.MONGODB_URI ||
-      'mongodb+srv://leet-rex:Veer2000@password-auth.uagdt.mongodb.net/test-login',
+    mongoURI,
     { useNewUrlParser: true }
   )
   .then(() => {
